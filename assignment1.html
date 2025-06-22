@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My CV - Hasif Ahlami</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      background: #333;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header, main, section, footer {
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        font-size: 14px;
+      }
+      header img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Header Section -->
+  <header id="about">
+    <h1>Hasif Ahlami</h1>
+    <img src="C:\Users\zurai\Desktop\html\assignment\lata kijang.jpg" alt="Profile Picture" title="that me!" />
+    <p>Hello! I’m a student passionate about web development and digital technologies. Welcome to my CV website.</p>
+    <button onclick="alert('Thanks for visiting!')" title="Click to say hi!">Say Hi</button>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Education Section -->
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+        <li>SPM - SBPI Gombak, 2022</li>
+        <li>Foundation in Engineering and Computer Science - International Islamic University Malaysia - IIUM (2023–2026)</li>
+        <li>Ongoing - Banchelor in Information System</li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>An Athletic Person  </li>
+        <li>HTML, CSS, JavaScript and C++</li>
+      </ul>
+    </section>
+
+    <!-- Projects / Work Experience -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div>
+          <h3>Smart Mobility Hackathon</h3>
+          <p>Built a fatigue detection system using AI and Streamlit for drivers.</p>
+          <p>AI face detection system using AI for drivers.</p>
+          <p>Hand Sign detection system using AI for drivers.</p>
+        </div>
+        <div>
+          <h3>AIShield</h3>
+          <p>Cybersecurity AR visualizer for in-vehicle IoT threat detection, Anti-Thieft and AI Assistance .</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mail me :hasif271977@gmail.com">hasif271977@email.com</a></p>
+      <p>GitHub: <a href="https://github.com/yourusername" target="_blank">My GitHub</a></p>
+      <button onclick="window.location.href='cv.pdf'">Download CV</button>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Hasif Ahlami. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
