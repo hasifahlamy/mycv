@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My CV - Hasif Ahlami</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Navigation Bar -->
+    <nav>
+      <a href="#about" title="Go to About Me">About Me</a>
+      <a href="#education" title="See my education">Education</a>
+      <a href="#skills" title="View my skills">Skills</a>
+      <a href="#projects" title="Check out my projects">Projects</a>
+      <a href="#contact" title="Contact Me">Contact</a>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="about">
+      <h1>Hasif Ahlami</h1>
+      <img src="lata kijang.jpg" alt="Profile Picture" title="That's me!" />
+      <p>Hello! I’m a student passionate about web development and digital technologies. Welcome to my CV website.</p>
+      <button onclick="sayHi()" title="Click to say hi!">Say Hi</button>
+      <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Education Section -->
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>SPM - SBPI Gombak, 2022</li>
+          <li>Foundation in Engineering and Computer Science - International Islamic University Malaysia - IIUM (2023–2026)</li>
+          <li>Ongoing - Bachelor in Information System</li>
+        </ul>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>An Athletic Person</li>
+          <li>HTML, CSS, JavaScript and C++</li>
+        </ul>
+      </section>
+
+      <!-- Projects / Work Experience -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div>
+            <h3>Smart Mobility Hackathon</h3>
+            <p>Built a fatigue detection system using AI and Streamlit for drivers.</p>
+            <p>AI face detection system for drivers.</p>
+            <p>Hand Sign detection system using AI for drivers.</p>
+          </div>
+          <div>
+            <h3>AIShield</h3>
+            <p>Cybersecurity AR visualizer for in-vehicle IoT threat detection, Anti-Theft and AI Assistance.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Info -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:hasif271977@gmail.com">hasif271977@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">My GitHub</a></p>
+        <a href="cv.pdf" download="hasif cv.pdf">
+          <button>Download CV</button>
+        </a>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Hasif Ahlami. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
