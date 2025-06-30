@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My CV - Hasif Ahlami</title>
   <style>
+
+    .container {
+    max-width: 900px;
+    margin: 0 auto; /* center content */
+    background-color: #ffffff;
+    padding: 25px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* subtle shadow */
+    border-radius: 10px;
+    }
+    
+
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -77,18 +88,19 @@
       margin-top: 2rem;
     }
 
-    @media (max-width: 600px) {
-      nav {
-        font-size: 14px;
-      }
-      header img {
-        width: 100px;
-        height: 100px;
-      }
-    }
+    img {
+    border: 4px solid #34495e;
+    max-width: 300px;
+    display: block;
+    margin: 20px auto 0;
+}
+
   </style>
 </head>
 <body>
+
+  <div class="container">
+
 
   <!-- Navigation Bar -->
   <nav>
@@ -102,7 +114,7 @@
   <!-- Header Section -->
   <header id="about">
     <h1>Hasif Ahlami</h1>
-    <img src="lata kijang.jpg" alt="Profile Picture" title="that me!" />
+    <img src="C:\Users\zurai\Desktop\html\assignment\lata kijang.jpg" alt="Profile Picture" title="that me!" />
     <p>Hello! I’m a student passionate about web development and digital technologies. Welcome to my CV website.</p>
     <button onclick="alert('Thanks for visiting!')" title="Click to say hi!">Say Hi</button>
   </header>
@@ -150,7 +162,10 @@
       <h2>Contact</h2>
       <p>Email: <a href="mail me :hasif271977@gmail.com">hasif271977@email.com</a></p>
       <p>GitHub: <a href="https://github.com/yourusername" target="_blank">My GitHub</a></p>
-      <button onclick="window.location.href='cv.pdf'">Download CV</button>
+      <a href="hasif cv.pdf" download="hasif cv.pdf">
+  <button>Download CV</button>
+</a>
+
     </section>
   </main>
 
@@ -158,6 +173,9 @@
   <footer>
     <p>© 2025 Hasif Ahlami. All rights reserved.</p>
   </footer>
+
+</div>
+
 
 </body>
 </html>
